@@ -1,4 +1,4 @@
-import { Card, Button, Dropdown } from 'react-bootstrap';
+import { Card, Button} from 'react-bootstrap';
 import { FaShareAlt } from 'react-icons/fa';
 
 export default function Post() {
