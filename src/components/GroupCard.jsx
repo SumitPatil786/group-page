@@ -1,5 +1,5 @@
-import { Nav, Button, Row, Col, Dropdown } from 'react-bootstrap';
-import { FaUserPlus, FaEllipsisH } from 'react-icons/fa';
+import { Nav, Button, Dropdown } from 'react-bootstrap';
+import { FaUserPlus } from 'react-icons/fa';
 
 export default function GroupCard() {
   return (
