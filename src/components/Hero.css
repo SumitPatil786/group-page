@@ -1,0 +1,15 @@
+.hero-image {
+  background: var(--hero-bg);
+  height: 50vh;
+  position: relative;
+}
+
+.hero-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,.1) 0%, rgba(0,0,0,.7) 100%);
+}
+.hero-image > * {
+  position: relative; /* keep text above overlay */
+}
